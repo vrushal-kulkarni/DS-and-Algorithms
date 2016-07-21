@@ -1,0 +1,11 @@
+package HashTable;
+
+public class SimpleHashTable {
+
+	public static void main(String[] args) {
+		int arr[]=new int[20];
+		
+
+	}
+
+}

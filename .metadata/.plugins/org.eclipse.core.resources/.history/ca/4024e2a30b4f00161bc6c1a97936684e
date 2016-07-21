@@ -1,0 +1,29 @@
+package HashTable;
+
+import java.io.BufferedReader;
+
+public class SimpleHashTable {
+
+	public static void main(String[] args) {
+		int arr[]=new int[20];
+		
+		System.out.println("Enter any string");
+		
+
+	}
+	
+	public int hashfunction(String str)
+	{
+		int value=0;
+		
+		for (int i=0;i<str.length();i++)
+		{
+			value=value + Character.getNumericValue(str.charAt(i));
+		}
+		
+		value=value%20;
+		
+		return value;
+	}
+
+}
